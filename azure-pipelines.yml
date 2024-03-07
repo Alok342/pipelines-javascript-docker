@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-  dockerRegistryServiceConnection: 'conatinerserviceconnection'
+  dockerRegistryServiceConnection: 'conatinerservice'
   imageRepository: 'mycontainer342'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
